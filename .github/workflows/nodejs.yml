@@ -11,8 +11,8 @@ jobs:
     - name: Set up node using nvm
       uses: dcodeIO/setup-node-nvm@v2.0.0
     - run: npm install
-      working-directory: ./
+      working-directory: ../
     - run: npm test
-      working-directory: ./
+      working-directory: ../
       env:
         CI: true
