@@ -1,0 +1,33 @@
+{
+  "name": "dynamic-module-wrap",
+  "version": "0.0.0",
+  "description": "Allows to repeatedly wrap/patch a function property on a module/object. Maintains ordering of wrapping, even when intermediate patch/wrapping functions are removed. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upphiminn/dynamic-module-wrap.git"
+  },
+  "keywords": [
+    "wrap",
+    "patch",
+    "module wrap",
+    "dynamic wrap",
+    "wrap multiple times",
+    "multiple patch",
+    "successive patch",
+    "node module wrap",
+    "node module patch"
+  ],
+  "author": "Corneliu S.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upphiminn/dynamic-module-wrap/issues"
+  },
+  "homepage": "https://github.com/upphiminn/dynamic-module-wrap#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
